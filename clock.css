@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(clock\ background.jpg);
+    background-size: cover;
+    
+}
+.timedate{
+    
+    color: white;
+    background:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    width:340px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 10px black;
+    /* height: 20; */
+    padding: 20px;
+    transition: 0.5s;
+    
+
+}
+.timedate:hover{
+    background: gray;
+    box-shadow: 0px 0px 10px gray;
+}
+.date{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.time{
+    font-size: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
